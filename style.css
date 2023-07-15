@@ -66,4 +66,21 @@ body{
     height: var(--h);
     border-radius: 8px;
 }
+.calculator {
+    margin-left: 100px;
+  }
+  
+  #result {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px; 
+  }
+  button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    background: black;
+  }
 
