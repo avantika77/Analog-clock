@@ -32,3 +32,17 @@ function displayTime(){
 }//clock roataio code
 
 setInterval(displayTime, 1000);
+
+function calculate() {
+  try {
+    const result = eval(input.value);
+    input.value = result;
+  } catch (error) {
+    input.value = "Error";
+  }
+}
+
+// Function to clear the input field
+function clearInput() {
+  input.value = "";
+}
